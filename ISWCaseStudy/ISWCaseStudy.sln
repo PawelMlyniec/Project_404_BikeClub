@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject", "ModelingProject\ModelingProject.modelproj", "{5549ACB0-C27D-4EF9-85DF-4D17726D2A65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{1530420D-4289-4CFB-8AA2-F8EE2EF276FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{FA124A93-ABDB-4B6F-BDA6-08D8374ED3BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeClubLib", "ClassLibrary\BikeClubLib.csproj", "{D198CD69-7E75-4E58-BBE4-0EC3C8D61333}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{FA841C7A-788D-4625-B560-26850E31881D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{561F20FA-F125-46D1-8B23-598C6288C2B8}"
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "BikeClubModel", "..\..\..\..\Downloads\BikeClubModel\BikeClubModel\BikeClubModel.modelproj", "{878CD0C6-1539-441E-81B6-9CDD24E5ED71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeClubModelLib", "..\..\..\..\Downloads\BikeClubModel\BikeClubModelLib\BikeClubModelLib.csproj", "{071ED101-70FE-466A-8A66-C51FCA9651BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab4", "Lab4", "{0DDF1955-74A6-4374-9275-173B3C7B338C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBTest", "DBTest\DBTest\DBTest.csproj", "{96A2F140-38B9-4DE0-A3F3-F6E7864CC560}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogicTest", "BusinessLogicTest", "{F1AB047A-8701-4905-A621-AFC5FC4C5BE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicTest", "BusinessLogicTest\BusinessLogicTest\BusinessLogicTest.csproj", "{E4FD98D2-C6E5-4AF0-81B5-D0EC967E33E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BikeClubGUI", "BikeClubGUI\BikeClubGUI.csproj", "{97A503C7-17AD-434F-9FCB-800687CD5937}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5549ACB0-C27D-4EF9-85DF-4D17726D2A65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5549ACB0-C27D-4EF9-85DF-4D17726D2A65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5549ACB0-C27D-4EF9-85DF-4D17726D2A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5549ACB0-C27D-4EF9-85DF-4D17726D2A65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D198CD69-7E75-4E58-BBE4-0EC3C8D61333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D198CD69-7E75-4E58-BBE4-0EC3C8D61333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D198CD69-7E75-4E58-BBE4-0EC3C8D61333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D198CD69-7E75-4E58-BBE4-0EC3C8D61333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{878CD0C6-1539-441E-81B6-9CDD24E5ED71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{878CD0C6-1539-441E-81B6-9CDD24E5ED71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{878CD0C6-1539-441E-81B6-9CDD24E5ED71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{878CD0C6-1539-441E-81B6-9CDD24E5ED71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{071ED101-70FE-466A-8A66-C51FCA9651BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{071ED101-70FE-466A-8A66-C51FCA9651BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{071ED101-70FE-466A-8A66-C51FCA9651BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{071ED101-70FE-466A-8A66-C51FCA9651BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96A2F140-38B9-4DE0-A3F3-F6E7864CC560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A2F140-38B9-4DE0-A3F3-F6E7864CC560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A2F140-38B9-4DE0-A3F3-F6E7864CC560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A2F140-38B9-4DE0-A3F3-F6E7864CC560}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4FD98D2-C6E5-4AF0-81B5-D0EC967E33E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4FD98D2-C6E5-4AF0-81B5-D0EC967E33E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4FD98D2-C6E5-4AF0-81B5-D0EC967E33E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4FD98D2-C6E5-4AF0-81B5-D0EC967E33E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97A503C7-17AD-434F-9FCB-800687CD5937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A503C7-17AD-434F-9FCB-800687CD5937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A503C7-17AD-434F-9FCB-800687CD5937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A503C7-17AD-434F-9FCB-800687CD5937}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1530420D-4289-4CFB-8AA2-F8EE2EF276FE} = {FA841C7A-788D-4625-B560-26850E31881D}
+		{D198CD69-7E75-4E58-BBE4-0EC3C8D61333} = {FA124A93-ABDB-4B6F-BDA6-08D8374ED3BE}
+		{0DDF1955-74A6-4374-9275-173B3C7B338C} = {FA841C7A-788D-4625-B560-26850E31881D}
+		{96A2F140-38B9-4DE0-A3F3-F6E7864CC560} = {0DDF1955-74A6-4374-9275-173B3C7B338C}
+		{F1AB047A-8701-4905-A621-AFC5FC4C5BE3} = {FA841C7A-788D-4625-B560-26850E31881D}
+		{E4FD98D2-C6E5-4AF0-81B5-D0EC967E33E3} = {F1AB047A-8701-4905-A621-AFC5FC4C5BE3}
+	EndGlobalSection
+EndGlobal

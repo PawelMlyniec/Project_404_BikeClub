@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="b46008b0-f3cb-4cad-8c4d-06a7217c2302" name="UMLUseCaseDiagram1" linkedPackageId="d537f9c4-875c-4946-b55c-384053925e93" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="33c8a234-bfc4-4f0a-a6ec-da4fca980ade">
+      <profileInstance Id="2f9d6d8d-a501-4d9c-8742-581663852e6b" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="66927053-0c55-4ccc-87b0-3812993ec9ac">
+      <profileInstance Id="93f2255b-0366-4c23-9f17-8a7e3450f1fc" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a47cf32c-dd78-4693-98a7-98c0ccb0f865" name="Login" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ba0edf9c-191b-4beb-a30a-0efe4c09f7b8" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="4c97c884-8d28-49f3-888e-9049df639f04" name="User" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4112685f-f55b-4425-839f-f7ecacecbbf3" />
+        <targetEnds>
+          <association Id="5b4918d8-24ed-41bb-a719-a6c569c39d2b" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Login" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a47cf32c-dd78-4693-98a7-98c0ccb0f865" LastKnownName="Login" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5c72c766-89ae-4cbc-ab44-93d8646832c8" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="49d3da54-4a56-4a8e-83af-94ccfbf8bd8e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a7780222-c591-4e71-97b2-5b351f60458e" name="Login" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d43c3090-0dbd-4a0a-b7cc-65924a8c3fd6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="023e98cd-c9b1-4b76-8d95-d84178500d9e" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="a1db3395-c7dc-497f-b940-7f43e3153ff2" name="User" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9c109ee6-460e-4eb7-acb1-03eae3bd6574" />
+        <targetEnds>
+          <association Id="9896240c-1b38-4d15-a49e-7fd997a078f6" isDerived="false" sourceEndRoleName="User" targetEndRoleName="GestAca" isLeaf="false" isAbstract="false">
+            <subsystemMoniker Id="8edb9137-327d-416c-af66-24a293187eb3" LastKnownName="GestAca" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9afceb72-9862-4219-bfbe-4e3a981d3973" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b77213de-e30c-47d6-91d9-3083d71fd5c2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3168b794-ca8f-4a16-8d50-c906f6c40a52" name="GestAca" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f84d3c18-90b2-458d-8619-cbb1cd0a5608" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b9ae363b-2840-496b-8d75-63008624e3f3" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="6cedda22-7cc2-4376-98ab-177e3e5d4f65" name="Employee" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e9d33f4d-31b8-429b-9df6-355b711bb3f8" />
+        <generalsInternal>
+          <generalization Id="33cc9c78-940e-454c-9a0a-c16003447ed6" isSubstitutable="false">
+            <actorMoniker Id="a1db3395-c7dc-497f-b940-7f43e3153ff2" LastKnownName="User" />
+            <elementDefinition Id="7da61d16-b9eb-48eb-826d-7af1b52f9d80" />
+          </generalization>
+        </generalsInternal>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="48417527-a285-40b8-a592-2220c4e7fb09" name="Teacher" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2b7f7d5f-4ffc-4c57-99a9-33c2c99570e0" />
+        <generalsInternal>
+          <generalization Id="77db47f0-d584-466f-adeb-be03a24f4a36" isSubstitutable="false">
+            <actorMoniker Id="a1db3395-c7dc-497f-b940-7f43e3153ff2" LastKnownName="User" />
+            <elementDefinition Id="ef088656-a744-463d-9262-10c1d6994c02" />
+          </generalization>
+        </generalsInternal>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="f84ecf7b-f3ee-47b0-9e92-c5a59d7405ac" name="Admin" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="16371b4a-2fc6-4a0a-a1c9-1e314b232d24" />
+        <generalsInternal>
+          <generalization Id="b7c1254a-809a-4e55-b1a0-f413c1d33925" isSubstitutable="false">
+            <actorMoniker Id="a1db3395-c7dc-497f-b940-7f43e3153ff2" LastKnownName="User" />
+            <elementDefinition Id="0a95dcb5-1efe-488c-8e48-cd170229cb4f" />
+          </generalization>
+        </generalsInternal>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="8edb9137-327d-416c-af66-24a293187eb3" name="GestAca" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="865ee690-54bb-4cdf-80a4-b821f2d2e911" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="f5e7008e-f144-43a7-97a7-47ec534f19be" name="Employee1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="567bc2fe-bd8a-4dbb-8289-fb7671ec2fc6" />
+      </actor>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="d537f9c4-875c-4946-b55c-384053925e93" name="Lab2-DiagramaClases">
+    <elementDefinition Id="cf7af225-1483-41e0-8e45-a62247e68e86" />
+  </package>
+</useCaseModelRoot>
